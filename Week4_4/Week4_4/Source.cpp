@@ -17,5 +17,5 @@ int main()
 	}
 	cout << "xbar = " << sum << '/' << n << " = " << (float)sum / n<<endl;
 	cout << "range = " << max << '-' << min << " = " << max-min;
-
+	return 0;
 }
