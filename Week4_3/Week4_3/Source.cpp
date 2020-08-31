@@ -17,5 +17,5 @@ int main()
 	cout << max<<' '<<min << endl;
 	if (max - min > 100) cout << "over";
 	else cout << "in 100 Variance";
-
+	return 0;
 }
