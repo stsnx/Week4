@@ -11,9 +11,11 @@ int main()
 		if (x[i] > max || x[i] < min)
 		{
 			if (x[i] < min) min = x[i];
-			else max = x[i];
+			if (x[i] > max)max = x[i];
 		}
 	}
-	cout << "max = " << max << endl << "min = " << min;
+	cout << max<<' '<<min << endl;
+	if (max - min > 100) cout << "over";
+	else cout << "in 100 Variance";
 
 }
