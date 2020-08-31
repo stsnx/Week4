@@ -11,7 +11,7 @@ int main()
 		if (x[i] > max || x[i] < min)
 		{
 			if (x[i] < min) min = x[i];
-			else max = x[i];
+			if (x[i] > max) max = x[i];
 		}
 		sum += x[i];
 	}
